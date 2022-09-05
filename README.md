@@ -1,4 +1,4 @@
-# Dancy Pi: Audio Reactive LEDs
+# Pi_Audio_Reactive_Led
 
 This repo is my implementation of Scott Lawson's work. I did my best to simplify the installation process. The original Readme text can be found below my updated Readme. 
 
@@ -7,23 +7,13 @@ still plan to in the future.
 
 The steps in this repo can be applied globally on your Pi or inside virtual environments like `venv` or `conda`. My tutorial does everything globally! 
 
-# Demo
 
-See the new demo at: https://www.youtube.com/watch?v=7YLF-N0596I
 
 Join the Conversation on EasyProgramming at: https://www.easyprogramming.net/raspberrypi/audio_reactive_led.php
 
 You can also watch the old demo at the following URL. You can see just how much time the new implementation saves: 
 [https://www.youtube.com/watch?v=vY4P0MU62X8](https://www.youtube.com/watch?v=vY4P0MU62X8)
 
-# Tutorial
-
-A full video tutorial can be found on YouTube at https://www.youtube.com/watch?v=7YLF-N0596I
-<a href="https://www.youtube.com/watch?v=7YLF-N0596I" target="_blank"><img src="https://raw.githubusercontent.com/naztronaut/dancyPi-audio-reactive-led/master/images/thumbnail.jpg" width="700px" alt="Audio Reactive LED Strip Tutorial"></a>
-
-More information on the tutorial can be found at https://www.easyprogramming.net/raspberrypi/audio_reactive_led.php
-
-See the old tutorial on Branch [v1.0.0](../../tree/v1.0.0).
 
 # Nazberry Pi Modifications
 
@@ -345,7 +335,7 @@ You can use a "virtual audio device" to transfer audio playback from one applica
 ![audio-input-sources](images/audio-source.png)
 
 ### Windows
-On Windows, you can use "Stereo Mix" to copy the audio output stream into the audio input. Stereo Mix is only support on certain audio chipsets. If your chipset does not support Stereo Mix, you can use a third-party application such as [Voicemeeter](http://vb-audio.pagesperso-orange.fr/Voicemeeter/).
+On Windows, you can use "Stereo Mix" to copy the audio output stream into the audio input. Stereo Mix is only supported on certain audio chipsets. If your chipset does not support Stereo Mix, you can use a third-party application such as [Voicemeeter](http://vb-audio.pagesperso-orange.fr/Voicemeeter/).
 
 ![show-stereomix](images/stereo-show.png)
 
